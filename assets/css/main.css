@@ -1,0 +1,129 @@
+.content {
+    background-color: #f1f1f1;
+    padding-bottom: 52px;
+}
+
+.content__header-wrapper {
+    text-align: center;
+}
+
+.content__header {
+    font-weight: bolder;
+}
+
+.content__header-describe-color {
+    background-color: black;
+    color: #fff;
+    padding: 0 8px;
+}
+
+.content__card {
+    background-color: white;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    display: inline-block;
+    width: 100%;
+}
+
+.content__card-img {
+    padding-top: 31%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content__card-img-large-size {
+    padding-top: 61%;
+}
+
+.content__card-body {
+    display: inline-block;
+}
+
+.content__card-read {
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.content__card-read-btn button {
+    padding: 12px 24px;
+    border: 1px solid black;
+    background-color: white;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.content__card-read-cmt-wrapper {
+    display: inherit;
+    justify-content: flex-end;
+}
+
+.content__card-read-cmt {
+    margin-right: 8px;
+}
+
+.content__card-read-cmt-number-over {
+    border-radius: 50%;
+}
+
+.content__card-post {
+    padding: 18px 16px;
+    font-size: 20px;
+    background-color: #f1f1f1;
+}
+
+.content__card-post-list {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.content__card-post-item {
+    padding: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.content__card-post-item:hover {
+    background-color: #ccc;
+
+}
+
+.ontent__card-post-item-img {
+    width: 50px;
+    float: left;
+    margin-right: 16px;
+}
+
+.content__card-post-tag {
+    padding: 0 16px;
+}
+
+.content__card-post-tag-wraooer {
+    margin: 15px 0;
+}
+
+.main__footer {
+    background-color: #616161;
+}
+
+.main__footer-btn-previous {
+    cursor: not-allowed;
+    opacity: 0.3;
+}
+
+.main__footer-btn-next:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+.main__footer-coppyright {
+    padding: 15px 0;
+    color: #fff;
+}
+
+.main__footer-coppyright a {
+    color: #fff;
+}
+
